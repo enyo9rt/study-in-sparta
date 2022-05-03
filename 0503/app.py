@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-for i in numbers:
+for i in range(1,10,1):
     print(f'{i}단')
-    for j in numbers:
+    for j in range(1,10,1):
         print(f'{i} * {j} = {i*j}')
